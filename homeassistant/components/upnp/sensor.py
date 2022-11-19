@@ -81,7 +81,6 @@ SENSOR_DESCRIPTIONS: tuple[UpnpSensorEntityDescription, ...] = (
         key=ROUTER_IP,
         name="External IP",
         icon="mdi:server-network",
-        entity_category=EntityCategory.DIAGNOSTIC,
     ),
     UpnpSensorEntityDescription(
         key=ROUTER_UPTIME,
